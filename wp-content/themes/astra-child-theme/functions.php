@@ -11,4 +11,9 @@ wp_enqueue_style( 'child-style', get_stylesheet_uri(),
 array( $parenthandle ),
 $theme->get('Version') // this only works if you have Version in the style header
 );
+        wp_deregister_script('jquery');
+    
+    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js', array(), null, true);
+  
+  wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/myscript.js', array(), null, true);
 }
