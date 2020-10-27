@@ -44,7 +44,7 @@ function supervision_form()
 }
 
     #First parameter is a self choosen name for a unique short-code. Second parameter is the name of the function that creates the supervision form
-    add_shortcode('show_thplugin','supervision_form');
+ add_shortcode('show_thplugin','supervision_form');
     
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
 
