@@ -17,7 +17,7 @@ function supervision_form()
     
  $content .= '<section id="bagboks">';
   	$content .= '<section>';
-    $content .= '<img id="logo" src=" '.plugins_url("thplugin/img/thlangs-logo.png").' " ';
+    $content .= '<img id="logo" src=" '.plugins_url("thplugin/img/logo.png").' " ';
     $content .= 'alt="TH Langs Logo">';
   	$content .= '<h1 id="overvej">Har du overvejet HF?</h1>';
     $content .= '<h4 id="plugtext">Hvis du har spørgsmål om TH. LANGS, som du gerne vil have svar på, så kontakt vores studievejledere herunder</h4>';
