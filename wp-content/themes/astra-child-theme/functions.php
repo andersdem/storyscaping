@@ -18,7 +18,7 @@ $theme->get('Version') // this only works if you have Version in the style heade
   wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/myscript.js', array(), null, true);
 }
 
-
+/*
 function lydpåbilleder()
 {
     $content='';
@@ -72,4 +72,4 @@ function playMonkeyAudio() {
 </script>
     
     
-    }
+    } */
