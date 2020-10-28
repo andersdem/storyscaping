@@ -5,7 +5,7 @@
  Author:       Anders Matthiesen, Sofus Stricher & Emma Hedeager
  Author URI:   https://storyscaping.hedeagerdesign.dk
  Template:     astra
- Version:      0.1.8
+ Version:      0.1.9
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -27,10 +27,10 @@ a.menu-link {
     padding: 0.2em 0;
 }
 
-/* Tilføjet back to top knap */ 
+/* Tilføjet back to top knap */
 #backtotop {
     display: inline-block;
-    background-color: #883d39;
+    background-color: #F2CD13;
     width: 50px;
     height: 50px;
     text-align: center;
@@ -45,7 +45,7 @@ a.menu-link {
 
 #backtotop:hover {
     cursor: pointer;
-    background-color: #333;
+    background-color: #B3B3B3;
 }
 
 #backtotop:active {
@@ -65,13 +65,13 @@ a.menu-link {
 
 /* Animation på knapperne (hentet fra animista.net)*/
 .elementor-18 .elementor-element.elementor-element-fa6a070 .elementor-button {
-	-webkit-animation: shake-horizontal 10s ease-in-out infinite both;
-	        animation: shake-horizontal 10s ease-in-out infinite both;
+    -webkit-animation: shake-horizontal 10s ease-in-out infinite both;
+    animation: shake-horizontal 10s ease-in-out infinite both;
 }
 
 .elementor-18 .elementor-element.elementor-element-9111e7c .elementor-button {
-	-webkit-animation: shake-horizontal 10s ease-in-out infinite both;
-	        animation: shake-horizontal 10s ease-in-out infinite both;
+    -webkit-animation: shake-horizontal 10s ease-in-out infinite both;
+    animation: shake-horizontal 10s ease-in-out infinite both;
 }
 
 /* ----------------------------------------------
@@ -87,58 +87,69 @@ a.menu-link {
  * ----------------------------------------
  */
 @-webkit-keyframes shake-horizontal {
-  0%,
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  10%,
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-  }
-  80% {
-    -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-  }
-  90% {
-    -webkit-transform: translateX(-8px);
-            transform: translateX(-8px);
-  }
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
 }
+
 @keyframes shake-horizontal {
-  0%,
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  10%,
-  30%,
-  50%,
-  70% {
-    -webkit-transform: translateX(-10px);
-            transform: translateX(-10px);
-  }
-  20%,
-  40%,
-  60% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-  }
-  80% {
-    -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-  }
-  90% {
-    -webkit-transform: translateX(-8px);
-            transform: translateX(-8px);
-  }
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
 }
