@@ -1,3 +1,4 @@
+/* Denne kode er lavet af Murat */
 jQuery(document).ready(function ($) {
 
     var btn = $('#backtotop');
@@ -18,7 +19,7 @@ jQuery(document).ready(function ($) {
     });
 
 });
-
+/* Denne kode er arbejdet ud fra Murats vejledning */
 document.getElementById("rektorlyd").addEventListener("click", playRektor);
 document.getElementById("muterektor").addEventListener("click", pauseRektor);
 

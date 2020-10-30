@@ -5,7 +5,7 @@
  Author:       Anders Matthiesen, Sofus Stricher & Emma Hedeager
  Author URI:   https://storyscaping.hedeagerdesign.dk
  Template:     astra
- Version:      0.2.1
+ Version:      0.2.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -27,6 +27,7 @@ a.menu-link {
     padding: 0.2em 0;
 }
 
+/* Koden er lavet af Murat */
 /* Tilføjet back to top knap */
 #backtotop {
     display: inline-block;
