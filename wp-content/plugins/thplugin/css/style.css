@@ -106,7 +106,7 @@ input[type="broedtekst"] {
     border-color: #23579C;
     border-width: 3px;
     background-color: #EDF1F2;
-    font-weight: 1000;
+    font-weight: 900;
     color: black;
 }
 
@@ -120,7 +120,7 @@ input[type="broedtekst"] {
     border-width: 3px;
     color: black;
     background-color: #EDF1F2;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 #tekstfelt {
@@ -132,7 +132,7 @@ input[type="broedtekst"] {
     border-width: 3px;
     color: black;
 
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 input[type="submit"] {
